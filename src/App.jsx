@@ -22,9 +22,9 @@ function App() {
 
   return (
     <>
-      <div class="flex flex-col items-center px-10 py-5">
+      <div class="flex flex-col items-center px-5 py-5">
         <h1 class="text-3xl font-semibold mb-4">Skymodlist</h1>
-        <p class="text-xl mb-2">
+        <p class="text-xl text-center mb-2">
           This is a list of known moderation lists on the Bluesky network sorted
           by popularity.
         </p>
@@ -35,13 +35,13 @@ function App() {
           have their own bias and criteria that may not align with yours. Review
           their list and their profile first to make an informed decision.
         </p>
-        <p class="mb-2 text-xs">
+        <p class="mb-2 text-center text-xs">
           Click on any title to view the moderation list on Bluesky.
         </p>
-        <p class="mb-2 text-xs">
+        <p class="mb-2 text-center text-xs">
           Click on any handle to view the user (publisher) on Bluesky.
         </p>
-        <p class="mb-4">
+        <p class="mb-4 text-center">
           <a href="https://bsky.app/profile/lukeacl.com" target="_blank">
             💕 @lukeacl.com
           </a>
