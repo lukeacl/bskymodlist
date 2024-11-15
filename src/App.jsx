@@ -45,7 +45,7 @@ function App() {
         </p>
         <p class="mb-4 text-center">
           <a href="https://bsky.app/profile/lukeacl.com" target="_blank">
-            M💕 @lukeacl.com
+            💕 @lukeacl.com
           </a>
         </p>
         <table class="bg-gray-100">
