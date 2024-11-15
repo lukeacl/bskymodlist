@@ -53,7 +53,7 @@ function App() {
               {(list, i) => (
                 <>
                   <tr classList={{ "bg-gray-300": i() % 2 }}>
-                    <td class="px-2 pt-2">
+                    <td class="px-2 pt-5 text-xl mb-3">
                       <a
                         href={`https://bsky.app/profile/${list.record.uri.split("/")[2]}/lists/${list.record.uri.split("/")[4]}`}
                         target="_blank"
@@ -80,7 +80,7 @@ function App() {
                     </td>
                   </tr>
                   <tr classList={{ "bg-gray-300": i() % 2 }}>
-                    <td class="px-2 text-xs pb-2">
+                    <td class="px-2 text-xs pb-5">
                       {list.hits} Hit
                       {list.hits != 1 ? "s" : ""}
                     </td>
