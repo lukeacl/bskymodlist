@@ -13,6 +13,8 @@ function App() {
     }
   };
 
+  //bump
+
   onMount(async () => {
     setInterval(async () => {
       await fetch();
@@ -43,7 +45,7 @@ function App() {
         </p>
         <p class="mb-4 text-center">
           <a href="https://bsky.app/profile/lukeacl.com" target="_blank">
-            💕 @lukeacl.com
+            M💕 @lukeacl.com
           </a>
         </p>
         <table class="bg-gray-100">
