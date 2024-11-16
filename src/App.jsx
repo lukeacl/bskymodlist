@@ -62,7 +62,7 @@ function App() {
                       >
                         <strong>{list.record.name}</strong>{" "}
                         <em class="text-xs">
-                          ({list.record.listItemCount} Account
+                          ({list.record.listItemCount.toLocaleString()} Account
                           {list.record.listItemCount != 1 ? "s" : ""})
                         </em>
                       </a>
@@ -83,7 +83,7 @@ function App() {
                   </tr>
                   <tr classList={{ "bg-gray-300": i() % 2 }}>
                     <td class="px-2 text-xs pb-5">
-                      {list.hits} Hit
+                      {list.hits.toLocaleString()} Hit
                       {list.hits != 1 ? "s" : ""}
                     </td>
                   </tr>
