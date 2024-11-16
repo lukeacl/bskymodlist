@@ -27,8 +27,8 @@ function App() {
       <div class="flex flex-col items-center px-5 py-5">
         <h1 class="text-3xl font-semibold mb-4">Skymodlist</h1>
         <p class="text-xl text-center mb-2">
-          This is a list of known moderation lists on the Bluesky network sorted
-          by popularity.
+          This is a top 100 list of known moderation lists on the Bluesky
+          network sorted by popularity.
         </p>
         <p class="mb-2 text-center font-bold">Important Note</p>
         <p class="mb-2 text-center bg-sky-100 px-3 py-3">
